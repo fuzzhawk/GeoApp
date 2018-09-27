@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Keynote Speakers</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding style="background-color: transparent; !important;">
+
+  <ion-list  style="background-color: transparent;">
+  
+  
+  <div ion-item *ngFor="let item of items"  style="background-color: transparent;">
+  
+  
+  
+  <ion-card>
+
+  <ion-card-header>
+    {{item.name}}
+  </ion-card-header>
+
+  <ion-card-content>
+    Booth:&nbsp;  {{item.booth}}
+	&nbsp; 
+	&nbsp; 
+	&nbsp; 
+	 
+	 
+
+	
+	 
+	   <button ion-button secondary (click)="itemTapped(item)" >Read more  &nbsp; &nbsp;  <ion-icon [name]="item.icon" item-start></ion-icon></button>
+  </ion-card-content>
+
+</ion-card> <br>
+  
+  </div>
+ 
+  </ion-list>
+  <div *ngIf="selectedItem" padding>
+    You navigated here from <b>{{selectedItem.title}}</b>
+  </div>
+</ion-content>
