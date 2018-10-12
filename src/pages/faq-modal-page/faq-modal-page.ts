@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavParams, ViewController } from 'ionic-angular';
 
+
+
 /**
  * Generated class for the ModalPage page.
  *
@@ -18,7 +20,8 @@ export class FaqModalPage {
   }
   
   itemdata = this.navParams.get('data');
-  
+ 
+
    
    
 

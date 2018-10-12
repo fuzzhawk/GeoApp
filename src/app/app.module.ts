@@ -26,6 +26,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { NativeStorage } from '@ionic-native/native-storage';
 
 
+
+import { LocalNotifications } from '@ionic-native/local-notifications';
+
 @NgModule({
   declarations: [
     MyApp,
@@ -57,6 +60,7 @@ import { NativeStorage } from '@ionic-native/native-storage';
 	ContactPage
   ],
   providers: [
+    LocalNotifications,
     NativeStorage,
     StatusBar,
     SplashScreen,
