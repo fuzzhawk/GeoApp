@@ -7,20 +7,21 @@ import { HomePage } from '../pages/home/home';
 
 
 import { AgendaPage } from '../pages/agenda/agenda';
+import { Agenda2Page } from '../pages/agenda2/agenda2';
+
+
 import { TradeshowPage } from '../pages/tradeshow/tradeshow';
 import { KeynotePage } from '../pages/keynote/keynote';
 import { FaqPage } from '../pages/faq/faq';
 
-import { ForumPage } from '../pages/forum/forum';
-import { PosterPage } from '../pages/poster/poster';
-import { CorePage } from '../pages/core/core';
+
 import { MapPage } from '../pages/map/map';
 import { ListPage } from '../pages/list/list';
 
 import { ContactPage } from '../pages/contact/contact';
 
-import { Day1Page } from '../pages/day1/day1';
-import { Day2Page } from '../pages/day2/day2';
+
+
 
 
 @Component({

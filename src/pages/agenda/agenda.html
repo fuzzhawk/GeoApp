@@ -7,32 +7,29 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding style="background-color: transparent; !important;">
+<ion-content padding style="background-position: center; background-repeat: no-repeat; background-size: cover; background-image: url('../../assets/imgs/background.jpg'); !important;">
 
-
-
-  <h3>Agenda</h3>
-
-  <p>
-    this is the agenda page
-  </p>
-
-   <button ion-button full (click)="goToPosterPage()">
-   Poster Session
+    <button ion-button large full  round (click)="goToSatPage()">
+   Saturday
     </button>
 	
-	  <button ion-button full (click)="goToCorePage()">
-  Core Display
+	<button ion-button large full  round (click)="goToSunPage()">
+   Sunday
     </button>
-		
-	  <button ion-button full (click)="goToForumPage()">
-  Forum
+	
+	<button ion-button large full  round (click)="goToMonPage()">
+   Monday
     </button>
-  <br>
-  
-  todays's events: <br>
-  dsfsdfs<br>
-  sdfgsdfg
+	
+	<button ion-button large full  round (click)="goToTuePage()">
+   Tuesday
+    </button>
+	<br>
+	<br>
+    <div text-center>
+    <ion-img width="300" height="105" src="../../assets/imgs/techking_banner.jpg"></ion-img>
+	</div>
+	
 </ion-content>
 
 

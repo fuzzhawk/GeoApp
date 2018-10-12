@@ -1,0 +1,31 @@
+<!--
+  Generated template for the ModalPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>{{itemdata.name}}</ion-title>
+    <ion-buttons end>
+      <button ion-button (click)="closeModal()">Close</button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+<div  style="white-space:pre-wrap">
+{{itemdata.t}}  <br>
+{{itemdata.d}}  <br>
+{{itemdata.s}} - {{itemdata.e}}
+  <br>
+{{places[itemdata.p].n}}  <br>
+<br>
+
+</div>
+	<button ion-button>
+   remind me!
+    </button>
+</ion-content>

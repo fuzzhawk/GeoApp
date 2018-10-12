@@ -7,40 +7,43 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding style="background-color: transparent; !important;">
+<ion-content padding style="background-position: center; background-repeat: no-repeat; background-size: cover; background-image: url('../../assets/imgs/background.jpg'); !important;">
 
-  <ion-list  style="background-color: transparent;">
-  
-  
-  <div ion-item *ngFor="let item of items"  style="background-color: transparent;">
-  
-  
-  
-  <ion-card>
 
-  <ion-card-header>
-    {{item.name}}
-  </ion-card-header>
-
-  <ion-card-content>
-    Booth:&nbsp;  {{item.booth}}
-	&nbsp; 
-	&nbsp; 
-	&nbsp; 
-	 
-	 
-
-	
-	 
-	   <button ion-button secondary (click)="itemTapped(item)" >Read more  &nbsp; &nbsp;  <ion-icon [name]="item.icon" item-start></ion-icon></button>
-  </ion-card-content>
-
-</ion-card> <br>
+<ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
+ <br>
   
+  <div style="width:100%; float:right; background-color:#b6c2d6; ">
+  <div style="width:20%; float:left; ">booth number</div>
+  <div style="width:80%; float:right;  background-color:#b6c2d6; ">
+    <div> Exhibitor name </div>
+   </div> 
   </div>
+  
+  <br>
  
+
+
+  <ion-list text-wrap style=" font-size: 0.1rem;" >
+  
+  <button  ion-item icon-end *ngFor="let item of items" (click)="itemTapped(item)"  >
+  
+  <div style="width:100%; float:right; height:100%;">
+  
+  <div style="width:20%; float:left; background-color:white;">{{item[0].booth}}</div>
+  
+  <div style="width:80%; float:right; background-color:white;">
+  
+    <div *ngIf="item.length < 2" style="background-color:white;"> {{item[0].name}}<ion-icon name="arrow-forward" style="float:right;"></ion-icon></div>
+   
+   <div *ngIf="item.length > 1" style="background-color:white;"> {{item[0].name}} <br> (sat - sun) <ion-icon name="arrow-forward" style="float:right;"></ion-icon></div>
+   <br *ngIf="item.length > 1">
+	
+    <div *ngIf="item.length > 1" style="background-color:white;"> {{item[1].name}} <br> (mon - tues)</div> 
+	
+  </div> 
+</div> 
+  </button>
   </ion-list>
-  <div *ngIf="selectedItem" padding>
-    You navigated here from <b>{{selectedItem.title}}</b>
-  </div>
+  
 </ion-content>

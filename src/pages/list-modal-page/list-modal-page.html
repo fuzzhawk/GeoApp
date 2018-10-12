@@ -1,0 +1,39 @@
+<!--
+  Generated template for the ModalPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>Booth {{itemdata[0].booth}}  
+    <div *ngIf="itemdata.length < 2">  {{itemdata[0].name}} </div>
+	<div *ngIf="itemdata.length > 1">
+     {{itemdata[0].name}} (sat - sun)
+	<br>   {{itemdata[1].name}} (mon - tues)
+	</div>
+	
+	
+	</ion-title>
+    <ion-buttons end>
+      <button ion-button (click)="closeModal()">Close</button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+<ion-img item-end width="300" height="300" src={{itemdata.src}}></ion-img>
+<br>
+list modal page: <br>
+ <br>
+{{itemdata[0].booth}}  <br>
+
+ <div class="map-container">
+    <div id="mapId" style="width: 100%; height: 100%">
+    </div>
+  </div>
+
+</ion-content>
