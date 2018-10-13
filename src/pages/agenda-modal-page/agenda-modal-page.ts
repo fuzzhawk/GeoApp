@@ -30,10 +30,18 @@ export class AgendaModalPage {
 
 this.localNotifications.schedule({
    text: 'Delayed fnord',
-   trigger: {at: new Date(new Date().getTime() + 5000)},
+   trigger: {at: new Date(new Date().getTime() + 10000)},
    led: 'FF0000',
    sound: null
 });
+
+this.localNotifications.schedule({
+   text: 'super Delayed fnord',
+   trigger: {at: new Date(new Date().getTime() + 120000)},
+   led: 'FF0000',
+   sound: null
+});
+
 
  }
   
