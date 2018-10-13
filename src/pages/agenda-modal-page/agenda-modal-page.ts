@@ -25,7 +25,14 @@ export class AgendaModalPage {
   this.localNotifications.schedule({
   id: 1,
   text: 'wubba lubba dub dub!',
+});
 
+
+this.localNotifications.schedule({
+   text: 'Delayed fnord',
+   trigger: {at: new Date(new Date().getTime() + 5000)},
+   led: 'FF0000',
+   sound: null
 });
 
  }
