@@ -23,11 +23,6 @@ import { Agenda2Page } from '../pages/agenda2/agenda2';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
-import { NativeStorage } from '@ionic-native/native-storage';
-
-
-
-import { LocalNotifications } from '@ionic-native/local-notifications';
 
 @NgModule({
   declarations: [
@@ -60,8 +55,6 @@ import { LocalNotifications } from '@ionic-native/local-notifications';
 	ContactPage
   ],
   providers: [
-    LocalNotifications,
-    NativeStorage,
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
