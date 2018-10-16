@@ -38,7 +38,8 @@ export class ListModalPage {
       center: this.center,
       zoom: 5,
 	  maxBounds:[[1, 1], [22, 17]],
-	  attributionControl:false
+	  attributionControl:false,
+	  zoomControl:false 
     });
 
 	var imageUrl = "../../assets/imgs/map.jpg",
@@ -50,7 +51,7 @@ L.imageOverlay(imageUrl, imageBounds).addTo(this.map);
     var marker = new L.Marker(this.center);
     this.map.addLayer(marker);
 
-    marker.bindPopup("<p>Tashi Delek.<p>Delhi</p>");
+		
   }
    
    

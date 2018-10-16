@@ -25,7 +25,8 @@ export class MapPage {
       center: this.center,
       zoom: 5,
 	  maxBounds:[[1, 1], [22, 17]],
-	  attributionControl:false
+	  attributionControl:false,
+	  zoomControl:false 
     });
 	
 

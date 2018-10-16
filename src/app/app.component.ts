@@ -44,7 +44,7 @@ export class MyApp {
 	  { title: 'Tradeshow', component: TradeshowPage },
 	  { title: 'Keynote Speakers', component: KeynotePage },
 	  { title: 'F.A.Q.', component: FaqPage },
-	    { title: 'Contact Us', component: ContactPage }
+	  { title: 'Contact Us', component: ContactPage }
 	
 	  
     ];
@@ -59,6 +59,8 @@ export class MyApp {
       this.splashScreen.hide();
     });
   }
+  
+  
 
   openPage(page) {
     // Reset the content nav to have just this page

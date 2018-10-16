@@ -6,13 +6,11 @@
 -->
 <ion-header>
 
-  <ion-navbar color="primary">
+  <ion-navbar text-wrap color="primary">
     <ion-title>Booth {{itemdata[0].booth}}  
-    <div *ngIf="itemdata.length < 2">  {{itemdata[0].name}} </div>
-	<div *ngIf="itemdata.length > 1">
-     {{itemdata[0].name}} (sat - sun)
-	<br>   {{itemdata[1].name}} (mon - tues)
-	</div>
+	
+	
+
 	
 	
 	</ion-title>
@@ -25,15 +23,21 @@
 
 
 <ion-content padding>
-<ion-img item-end width="300" height="300" src={{itemdata.src}}></ion-img>
-<br>
-list modal page: <br>
- <br>
-{{itemdata[0].booth}}  <br>
 
- <div class="map-container">
-    <div id="mapId" style="width: 100%; height: 100%">
+ <div class="map-container" style = "z-index: -1;">
+    <div id="mapId" style="width: 100%; height: 100%; background-color:rgba(255,0,0,0.0);">
     </div>
   </div>
+  
+<div padding style = "z-index: 99;">
+    <div *ngIf="itemdata.length < 2">  {{itemdata[0].name}} </div>
+	<div *ngIf="itemdata.length > 1">
+     {{itemdata[0].name}} (sat - sun)
+	<br>   {{itemdata[1].name}} (mon - tues)
+	</div>
+</div>
+
+
+
 
 </ion-content>
