@@ -26,7 +26,7 @@ export class ListPage {
 	[{"s": "Alkan Air", "name": " Alkan Air ", "booth": "1-2", "marker": [12.071552663274506, 7.965087890625001 ] }],
 	[{"s": "Mercer Contracting","name": " Mercer Contracting ", "booth": "1-3", "marker": [12.95102921601837, 7.976074218750001 ] }],
 	[{"s": "Pelly Construction","name": " Pelly Construction ", "booth": "1-4", "marker": [13.78473654934022, 7.965087890625001 ] }],
-	[{"s": "K2  Casio mining","name": " K2", "booth": "1-5", "marker": [15.961329081596647, 7.976074218750001 ] }, {"name": " Casio mining ", "booth": "1-5", "marker": [9, 5] }],
+	[{"s": "Klondike Crane Inspections  Casio mining","name": "Klondike Crane Inspections", "booth": "1-5", "marker": [15.961329081596647, 7.976074218750001 ] }, {"name": " Casio mining ", "booth": "1-5", "marker": [9, 5] }],
 	[{"s": "Reflex","name": "Reflex ", "booth": "1-6", "marker": [16.90968361555865, 7.954101562500001 ] }],
 	[{"s": "Selwyn Chihong Mining","name": "Selwyn Chihong Mining ", "booth": "2-1", "marker": [10.260870794748941, 9.107666015625002 ] }],
 	[{"s": "Air North","name": "Air North ", "booth": "2-2", "marker": [11.221510260010541, 9.107666015625002 ] }],
