@@ -9,19 +9,16 @@ import { TradeshowPage } from '../pages/tradeshow/tradeshow';
 import { KeynotePage } from '../pages/keynote/keynote';
 import { FaqPage } from '../pages/faq/faq';
 
-
 import { ContactPage } from '../pages/contact/contact';
-
 
 import { MapPage } from '../pages/map/map';
 import { ListPage } from '../pages/list/list';
 
-
 import { Agenda2Page } from '../pages/agenda2/agenda2';
-
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+
 
 
 @NgModule({

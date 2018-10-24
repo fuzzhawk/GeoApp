@@ -15,7 +15,15 @@
   Contact Us
   </ion-card-header>
   <ion-card-content>
-  <p>
+  
+  
+  <p style="
+  user-select: auto;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+  ">
     Daniel Little, Project Manager
 	<br>
 3151 B – 3rd Avenue
@@ -26,7 +34,9 @@ P: 867.667.2090
 <br>
 C: 613.532.4340
 <br>
-communications@yukonminers.ca
+
+<button ion-button secondary (click)="sendmail()">communications@yukonminers.ca</button>
+  
 <br>
   </p>
   </ion-card-content>

@@ -11,8 +11,8 @@ export class ContactPage {
 
   constructor(public navCtrl: NavController) {}
 
-  
-  
+
+
 
 	 
 }

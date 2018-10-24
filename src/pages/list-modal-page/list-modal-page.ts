@@ -19,6 +19,7 @@ export class ListModalPage {
 
     map: L.Map;
   center: L.PointTuple;
+   marker: L.PointTuple;
 
   constructor(private navParams: NavParams, private view: ViewController) {
   }
@@ -29,7 +30,9 @@ export class ListModalPage {
 	
     //console.log(data);
     console.log('ionViewDidLoad MapPage');
-    this.center = this.itemdata[0].marker;
+	this.marker = this.itemdata[0].marker;
+	
+    this.center = [12.221917732187263, 9.799804687500002 ];
     this.leafletMap();
   }
 
@@ -48,7 +51,7 @@ L.imageOverlay(imageUrl, imageBounds).addTo(this.map);
 	
 
 
-    var marker = new L.Marker(this.center);
+    var marker = new L.Marker(this.marker);
     this.map.addLayer(marker);
 
 		

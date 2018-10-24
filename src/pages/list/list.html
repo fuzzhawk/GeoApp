@@ -14,7 +14,7 @@
  <br>
   
   <div style="width:100%; float:right; background-color:#b6c2d6; ">
-  <div style="width:20%; float:left;   padding: 5px 5px 5px 5px; ">booth number</div>
+  <div style="width:20%; float:left;   padding: 5px 5px 5px 5px; ">Booth #</div>
   <div style="width:80%; float:right;  background-color:#b6c2d6;    padding: 5px 5px 5px 5px;">
     <div> Exhibitor name </div>
    </div> 
@@ -36,10 +36,10 @@
   
     <div *ngIf="item.length < 2" style="background-color:white;"> {{item[0].name}}<ion-icon name="arrow-forward" style="float:right;"></ion-icon></div>
    
-   <div *ngIf="item.length > 1" style="background-color:white;"> {{item[0].name}} <br> (sat - sun) <ion-icon name="arrow-forward" style="float:right;"></ion-icon></div>
+   <div *ngIf="item.length > 1" style="background-color:white;"> {{item[0].name}} <br> (Sat - Sun) <ion-icon name="arrow-forward" style="float:right;"></ion-icon></div>
    <br *ngIf="item.length > 1">
 	
-    <div *ngIf="item.length > 1" style="background-color:white;"> {{item[1].name}} <br> (mon - tues)</div> 
+    <div *ngIf="item.length > 1" style="background-color:white;"> {{item[1].name}} <br> (Mon - Tues)</div> 
 	
   </div> 
 </div> 
