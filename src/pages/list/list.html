@@ -26,7 +26,7 @@
 
   <ion-list text-wrap style=" font-size: 0.1rem;" >
   
-  <button  ion-item icon-end *ngFor="let item of items" (click)="itemTapped(item)"  >
+  <button  ion-item  *ngFor="let item of items" (click)="itemTapped(item)"  >
   
   <div style="width:100%; float:right; height:100%;">
   
@@ -34,9 +34,9 @@
   
   <div style="width:80%; float:right; background-color:white;">
   
-    <div *ngIf="item.length < 2" style="background-color:white;"> {{item[0].name}}<ion-icon name="arrow-forward" style="float:right;"></ion-icon></div>
+    <div *ngIf="item.length < 2" style="background-color:white;"> {{item[0].name}}<ion-icon md="arrow-forward" wp="arrow-forward" style="float:right;"></ion-icon></div>
    
-   <div *ngIf="item.length > 1" style="background-color:white;"> {{item[0].name}} <br> (Sat - Sun) <ion-icon name="arrow-forward" style="float:right;"></ion-icon></div>
+   <div *ngIf="item.length > 1" style="background-color:white;"> {{item[0].name}} <br> (Sat - Sun) <ion-icon md="arrow-forward" wp="arrow-forward" style="float:right;"></ion-icon></div>
    <br *ngIf="item.length > 1">
 	
     <div *ngIf="item.length > 1" style="background-color:white;"> {{item[1].name}} <br> (Mon - Tues)</div> 

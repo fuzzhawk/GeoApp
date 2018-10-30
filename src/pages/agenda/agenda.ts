@@ -38,10 +38,9 @@ export class AgendaPage {
     {"n": " ", "s":"9:00 am", "e":"10:00 am","p" : "1", "t":"Key Note Address: Yukon’s Mining Industry: \n On the front lines of Reconciliation with First Nations", "d" : "Dr. Ken Coates, Canadian Research Chair in Regional Innovation, \n University of Saskatchewan \n Sponsored by Minto Explorations Ltd." },
 	{"n": " ", "s":"10:00 am", "e":"10:30 am","p" : "1", "t":"NUTRITION BREAK (Yukon Convention Centre - Trade Show Floor)", "d" : "Sponsored by Tintina Consultants" },
 	{"n": " ", "s":"10:30 am", "e":"11:30 am","p" : "1", "t":"Innovations in First Nations Partnerships: Elders in Residence Program", "d" : "Janet Lee Sheriff, CEO, Golden Predator Mining Corp \n Mary Caesar, Liard First Nation Elder" },
-	{"n": " ", "s":"10:30 am", "e":"11:30 am","p" : "1", "t":"Developing and Engaging Indigenous Workers for the Canadian Mining Sector", "d" : "Pascale Larouche, Senior Program Manager, Mining Industry Human Resource Council" },
     {"n": " ", "s":"11:30 am", "e":"1:00 pm","p" : "1", "t":"YUKON WOMEN IN MINING FUNDRAISER LUNCHEON & AGM", "d" : "" },
     {"n": " ", "s":"1:00 pm", "e":"2:00 pm","p" : "1", "t":"Key Note Address: Rex Murphy", "d" : "Sponsored by SGS Canada" },
-    {"n": " ", "s":"2:00 pm", "e":"3:00 pm","p" : "1", "t":"Canadian Mines and Metals Plan", "d" : "Ian Green, Natural Resources Canada \n Christian Martel-Flemming, Natural Resources Canada" },
+    {"n": " ", "s":"2:00 pm", "e":"3:00 pm","p" : "1", "t":"Canadian Minerals and Metals Plan", "d" : "Ian Green, Natural Resources Canada \n Christian Martel-Flemming, Natural Resources Canada" },
     {"n": " ", "s":"3:00 pm", "e":"3:30 pm","p" : "1", "t":"NUTRITION BREAK (Yukon Convention Centre - Trade Show Floor)", "d" : "Sponsored by ALS Global" },
     {"n": " ", "s":"3:30 pm", "e":"4:30 pm","p" : "1", "t":"First Nation Joint Partnerships - A Case Study", "d" : "NANA Regional Development Corporation - Red Dog Mine \n Lance Miller, VP - Natural Resource \n Sponsored by Total North Communications \n SESSION MODERATOR: \n Yukon First Nations Chamber of Commerce" },
 	{"n": " ", "s":"5:00 pm", "e":"7:00pm","p" : "2", "t":"Opening Reception", "d" : "Sponsored by Archer Cathro & Associates \nEntertainment Supported by Nuna Group of Companies" }
@@ -52,7 +51,7 @@ export class AgendaPage {
 	{"n": " ", "s":"10:00 am", "e":"5:00 pm","p" : "0", "t":"TRADE SHOW OPEN", "d" : "" },
 	{"n": " ", "s":"3:30 pm", "e":"5:00 pm","p" : "0", "t":"YGS Poster Display and Core Shack Happy Hour", "d" : "Sponsored by BMC Minerals  \n Supported by Aurora Geosciences" },
 	{"n": " ", "s":"8:30 am", "e":"9:00 am","p" : "1", "t":"Welcome Remarks", "d" : "Samson Hartland, Executive Director, Yukon Chamber of Mines \n  Anne Turner, Executive Director, Yukon Mining Alliance \n  Hon. Ranj Pillai, Minister of Economic Development, Government of Yukon" },
-    {"n": " ", "s":"9:00 am", "e":"9:45 am","p" : "1", "t":"Keynote Address", "d" : "Glenn Mullan, President, Prospector’s and Developer’s Association of Canada \n Sponsored by: Coeur Mining" },
+    {"n": " ", "s":"9:00 am", "e":"9:45 am","p" : "1", "t":"Keynote Address: Glenn Mullan", "d" : "Canada's Mineral Industry Competitiveness: An Overview \n President, Prospector’s and Developer’s Association of Canada \n Sponsored by: Coeur Mining" },
 	{"n": " ", "s":"9:45 am", "e":"10:00 am","p" : "1", "t":"Corporate Update: Fireweed Zinc Corp", "d" : "Brandon MacDonald, President & CEO" },
 	{"n": " ", "s":"10:00 am", "e":"10:30 am","p" : "1", "t":"NUTRITION BREAK (Yukon Convention Centre - Trade Show Floor)", "d" : "Sponsored by Coeur Mining" },
 	{"n": " ", "s":"10:30 am", "e":"10:45 am","p" : "1", "t":"Corporate Update: Golden Predator Corp", "d" : "Janet Lee-Sheriff, CEO" },
@@ -101,11 +100,11 @@ export class AgendaPage {
     {"n": " ", "s":"1:45 pm", "e":"2:15 pm","p" : "2", "t":"Minto Socio-Economic Program Report", "d" : "Jennifer Russell, Manager of Mineral Planning & Development, \n Department of Energy, Mines & Resources \n Lois Craig, Selkirk First Nation \n Ryan Hebert, Minto Explorations Ltd. " },
     {"n": " ", "s":"2:15 pm", "e":"3:00 pm","p" : "2", "t":"Is Government Fufilling it’s Duty To Consult?", "d" : "Stewart Muir, Executive Director, Resource Works" },
     {"n": " ", "s":"3:00 pm", "e":"3:30 pm","p" : "2", "t":"NUTRITION BREAK (Yukon Convention Centre - Trade Show Floor)", "d" : "Sponsored by K&K Truck Rentals" },
-    {"n": " ", "s":"3:30 pm", "e":"3:45 pm","p" : "2", "t":"Yukon’s Class 1 Notification System - What does it mean? How does it work?", "d" : "Bobby Milnes, Manager of Mining Lands, Department of Energy, Mines & Resources" },	
+    {"n": " ", "s":"3:30 pm", "e":"4:00 pm","p" : "2", "t":"Yukon’s Class 1 Notification System - What does it mean? How does it work?", "d" : "Bobby Milnes, Manager of Mining Lands, Department of Energy, Mines & Resources" },	
     {"n": " ", "s":"4:30 pm", "e":"6:00 pm","p" : "3", "t":"Yukon WIM Reception - Multipurpose Room", "d" : "Sponsored by Victoria Gold Corp & Casino Mining Corp" },
     {"n": " ", "s":"6:00 pm", "e":"","p" : "3", "t":"Champagne Reception - Longhouse", "d" : "Sponsored by Ecofor" },
-    {"n": " ", "s":"7:00 pm", "e":"10:00 pm","p" : "3", "t":"YCM Awards Banquet - Longhouse", "d" : "Sponsored by Alkan Air Ltd. \n Table wine provided by Cobalt Construction " },
-    {"n": " ", "s":"10:00 pm", "e":"late","p" : "3", "t":"Post Banquet Reception & Dance - Multipurpose Room - Live Music by Major Funk and the Employment", "d" : "Sponsored by Northwestel \n Supported by Yukon Brewing Company" }
+    {"n": " ", "s":"7:00 pm", "e":"10:00 pm","p" : "3", "t":"YCM Awards Banquet - Longhouse", "d" : "Sponsored by Alkan Air Ltd. \n Table wine provided by Cobalt Construction \n Coat Check Supported By Solidus Geological Services " },
+    {"n": " ", "s":"10:00 pm", "e":"late","p" : "3", "t":"Post Banquet Reception & Dance - Multipurpose Room - Live Music by Major Funk and the Employment", "d" : "Sponsored by Northwestel \n Supported by Yukon Brewing Company & Major Drilling" }
 	];
 	
 	this.tueitems = [
@@ -127,19 +126,21 @@ export class AgendaPage {
 	{"n": " ", "s":"2:50 pm", "e":"3:10 pm","p" : "1", "t":"Northeast Glenlyon geology - Paleozoic stratigraphic revisions and improvements in structural detail provide better understanding of historical mineral occurences", "d" : "Rosie Cobbett, Project Geologist, Yukon Geological Survey" }, 
 	{"n": " ", "s":"3:10 pm", "e":"3:30 pm","p" : "1", "t":"Intrustion Related, Sediment-Hosted Gold Mineralization: Perspectives from Hyland & Aurex-McQuesten Projects, Yukon", "d" : "James Thom, Senior Geologist & Field Manager, Banyan Gold Corp." }, 
 	{"n": " ", "s":"3:00 pm", "e":"3:30 pm","p" : "1", "t":"NUTRITION BREAK (Yukon Convention Centre - Trade Show Floor)", "d" : "Sponsored by Yukon, North of Ordinary" }, 
-	{"n": " ", "s":"8:00 am", "e":"9:00 am","p" : "2", "t":"Yukon Producers’ Group - People. Progress. Prosperity.", "d" : "Brad Thrall, Chair, Alexco Resource Corp. \n Jennifer Byram, VP, Pelly Construction" }, 
-	{"n": " ", "s":"8:30 am", "e":"9:30 am","p" : "2", "t":"Innovative Partners Fueling Yukon Mines", "d" : "Blaire Lancaster, VP, Business Development, Ferus Natural Gas \n Sean Kinmonth, Chief Operating Officer, Chieftan Energy" },
-	{"n": " ", "s":"9:30 am", "e":"10:00 am","p" : "2", "t":"Gearing Up - How Work Integrated Learning Can Help STEM-related Mining Labour Force", "d" : "Jennifer Wright, Senior Director, Employment & Diversity Initiatives, Mining Industry Human Resource Council (MiHR)" },
+	{"n": " ", "s":"8:00 am", "e":"8:40 am","p" : "2", "t":"Yukon Producers’ Group - People. Progress. Prosperity.", "d" : "Brad Thrall, Chair, Alexco Resource Corp. \n Jennifer Byram, VP, Pelly Construction" }, 
+	{"n": " ", "s":"8:40 am", "e":"9:00 am","p" : "2", "t":"How To Permit A Multi-Jurisdictional Mine", "d" : "Coeur Mining" }, 	
+	{"n": " ", "s":"9:00 am", "e":"9:20 am","p" : "2", "t":"Innovative Partners Fueling Yukon Mines", "d" : "Blaire Lancaster, VP, Business Development, Ferus Natural Gas \n Sean Kinmonth, Chief Operating Officer, Chieftan Energy \n Ron Daub Chief Executive Officer Vuntut Development Corp" },
+	{"n": " ", "s":"9:20 am", "e":"9:40 am","p" : "2", "t":"Gearing Up - How Work Integrated Learning Can Help STEM-related Mining Labour Force", "d" : "Jennifer Wright, Senior Director, Employment & Diversity Initiatives, Mining Industry Human Resource Council (MiHR)" },
+	{"n": " ", "s":"9:40 am", "e":"10:00 am","p" : "1", "t":"Developing and Engaging Indigenous Workers for the Canadian Mining Sector", "d" : "Pascale Larouche, Senior Program Manager, Mining Industry Human Resource Council" },
 	{"n": " ", "s":"10:00 am", "e":"10:30 am","p" : "2", "t":"NUTRITION BREAK (Yukon Convention Centre - Trade Show Floor)", "d" : "Sponsored by Engage Digital Signage" },
 	{"n": " ", "s":"10:30 am", "e":"10:50 am","p" : "2", "t":"Finding Common Ground: Regional Planning’s Contribution to Regulatory Certainty", "d" : "Pearl Callaghan, Chair, Yukon Land Use Planning Council \n Ron Cruikshank, Director, Yukon Land Use Planning Council" },
 	{"n": " ", "s":"10:50 am", "e":"11:10 am","p" : "2", "t":"Yukon Environmental and Socio-Economic Assessment Board Registry Update", "d" : "Tim Smith, Executive Director, YESAB \n Rob Yeomans, IT/Communications Manager, YESAB" },
 	{"n": " ", "s":"11:10 am", "e":"11:30 am","p" : "2", "t":"Yukon Water Board", "d" : "Roger Lockwood, Director, Yukon Water Board" },
 	{"n": " ", "s":"11:30 am", "e":"1:30 pm","p" : "2", "t":"YUKON CHAMBER OF MINES LUNCHEON AND AGM  (Coast High Country Inn – Ballroom A)", "d" : "Sponsored by Ferus" },
-	{"n": " ", "s":"1:00 pm", "e":"2:00 pm","p" : "2", "t":"Innovations in Transportation Infrastructure Panel Discussion", "d" : "The Runway, Roadway and Soil Stabilization Solutions for Mining Operations \n Robert Kendall, Chairperson of the Alternate Runway Material Test Program, Faun Trackway USA \n No Roads? No Problem. Hybrid Airships by Lockheed Martin \n Dr. Grant Cool, Chief Operating Officer, Hybrid Enterprises LLC \n \n SESSION MODERATOR: \n Ed Peart - Yukon Chamber of Commerce " },
+	{"n": " ", "s":"1:00 pm", "e":"2:00 pm","p" : "2", "t":"Innovations in Transportation Infrastructure Panel Discussion", "d" : "The Runway, Roadway and Soil Stabilization Solutions for Mining Operations \n Robert Kendall, Chairperson of the Alternate Runway Material Test Program, Faun Trackway USA \n \n SESSION MODERATOR: \n Ed Peart - Yukon Chamber of Commerce " },
 	{"n": " ", "s":"2:00 pm", "e":"3:00 pm","p" : "2", "t":"Exploring Business and Entreprenuership Opportunities through Yukon’s Mining Supply Chain", "d" : "Shelagh Rowles, Executive Director, Centre for Northern Innovation in Mining (CNIM) \n Ginny Coyne, Coordinator, Centre for Northern Innovation in Mining (CNIM) \n Sara Thompson, Program Enhancement Officer, Northern Energy Innovation/Cold Climate Innovation \n" },
 	{"n": " ", "s":"3:00 pm", "e":"3:30 pm","p" : "2", "t":"NUTRITION BREAK (Yukon Convention Centre - Trade Show Floor)", "d" : "Sponsored by Yukon, North of Ordinary" },
 	{"n": " ", "s":"3:30 pm", "e":"4:30 pm","p" : "2", "t":"Yukon University - An Oppportunity for Growth", "d" : "Karen Barnes, President & Chanceller, Yukon College \n Wendy Tayler, Chair, YukonU Foundation \n Tosh Southwick, Associate Vice President, Indigenous Engagement & Reconciliation \n" },
-	{"n": " ", "s":"3:30 am", "e":"6:00 pm","p" : "3", "t":"Closing Reception", "d" : "Sponsored by Northern Vision Development LLP  \n Entertainment Sponsored by ATAC Resources" }
+	{"n": " ", "s":"4:30 am", "e":"6:00 pm","p" : "3", "t":"Closing Reception", "d" : "Sponsored by Northern Vision Development LLP  \n Entertainment Sponsored by ATAC Resources" }
 	];
 	
 	

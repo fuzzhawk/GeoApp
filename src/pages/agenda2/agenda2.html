@@ -21,7 +21,7 @@
 <ion-list  style="background-color: transparent;"> 
 <ng-container *ngFor="let item of items">
    <button ion-item text-wrap icon-end  *ngIf="item.p == i"  (click)="itemTapped(item)" >  
-    <ion-icon  item-end name="arrow-forward" style="float: right" ></ion-icon>
+    <ion-icon  item-end md="arrow-forward" style="float: right" ></ion-icon>
     <h2>{{item.s}} - {{item.e }} <br> {{item.t}} </h2>
   </button>
 </ng-container>
