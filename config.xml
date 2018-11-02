@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="ca.yukongeosci.geosciappios" version="1.0.0" ios-CFBundleVersion="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>GeoSciApp</name>
+<widget id="ca.yukongeosci.geosciapp" version="1.0.1" ios-CFBundleVersion="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Yukon GeoScience App</name>
     <description>Yukon Geoscience Forum & Tradeshow Mobile App</description>
     <author email="chamberofminesyukon@gmail.com" href="https://yukongeoscience.ca/">Yukon Chamber of Mines</author>
     <content src="index.html" />
