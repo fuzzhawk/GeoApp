@@ -62,8 +62,8 @@ export class ListPage {
 	[{"s": "Boart Longyear EDI Enviromental","name": "Boart Longyear", "booth": "6-4", "marker": [12.822513897983297, 13.084716796875 ] }, {"name": "EDI Enviromental", "booth": "6-4", "marker": [9, 5] }],
 	[{"s": "Total North Communications Raven Rescue","name": "Total North Communications", "booth": "6-5", "marker": [13.848747147537152, 13.040771484375002 ] }, {"name": "Raven Rescue", "booth": "6-5", "marker": [9, 5] }],
 	[{"s": "Doosan/Bobcat/Macpherson","name": "Doosan/Bobcat/Macpherson", "booth": "6-6", "marker": [14.689881366618774, 13.095703125 ] }],
-	[{"s": "Yukon Chamber of Mines YCM","name": "Yukon Chamber of Mines", "booth": "7-1", "marker": [0, 0 ] }],
-	[{"s": "First Nations Chamber of Commerce FNCC","name": "First Nations Chamber of Commerce", "booth": "7-2", "marker": [0, 0 ] }]];
+	[{"s": "Yukon Chamber of Mines YCM","name": "Yukon Chamber of Mines", "booth": "7-1", "marker": [8.63649559861, 11.31411132812] }],
+	[{"s": "First Nations Chamber of Commerce FNCC","name": "First Nations Chamber of Commerce", "booth": "7-2", "marker": [8.63649559861, 11.31411132812] }]];
 }
   
   
