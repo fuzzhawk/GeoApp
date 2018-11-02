@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="ca.yukongeosci.geosciappios" ios-CFBundleVersion="3.0.1" version="3.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="ca.yukongeosci.geosciappios" ios-CFBundleVersion="4.0.1" version="4.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>GeoSciApp</name>
     <description>Yukon Geoscience Forum and Tradeshow Mobile App</description>
     <author email="chamberofminesyukon@gmail.com" href="https://yukongeoscience.ca/">Yukon Chamber of Mines</author>
@@ -79,7 +79,7 @@
     <plugin name="cordova-plugin-device" spec="2.0.2" />
     <plugin name="cordova-plugin-splashscreen" spec="5.0.2" />
     <plugin name="cordova-plugin-ionic-webview" spec="^2.0.0" />
-    <plugin name="cordova-plugin-file" spec="^6.0.1" />
     <engine name="ios" spec="4.5.5" />
     <engine name="android" spec="7.0.0" />
+    <plugin name="cordova-plugin-ionic-keyboard" spec="2.1.3" />
 </widget>
