@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import { Platform } from 'ionic-angular';
+
 
 import { MapPage } from '../map/map';
 import { ListPage } from '../list/list';
@@ -10,7 +12,15 @@ import { ListPage } from '../list/list';
 })
 export class TradeshowPage {
 
-  constructor(public navCtrl: NavController) {}
+  constructor(public navCtrl: NavController,platform: Platform) {
+	  
+	     let backAction =  platform.registerBackButtonAction(() => {
+        console.log("second");
+        this.navCtrl.pop();
+        backAction();
+      },2)
+	    
+  }
 
       goToMapPage() {
     //push another page onto the history stack
