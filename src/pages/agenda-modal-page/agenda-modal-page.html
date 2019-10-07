@@ -7,7 +7,7 @@
 <ion-header>
 
   <ion-navbar color="primary">
-    <ion-title>{{itemdata.name}}</ion-title>
+    <ion-title>Event Details</ion-title>
     <ion-buttons end>
       <button ion-button (click)="closeModal()">Close</button>
     </ion-buttons>
@@ -16,14 +16,32 @@
 </ion-header>
 
 <ion-content padding>
-<div  style="white-space:pre-wrap">
-{{itemdata.t}}  <br>
-{{itemdata.d}}  <br>
-{{itemdata.s}} - {{itemdata.e}}
-  <br>
-  <div *ngIf="itemdata.b < 1"> Location: {{places[itemdata.p].n}}   </div>
-<br>
 
-</div>
+
+<ion-list >
+
+<ion-item style="--padding-top:0px; --padding-bottom:0px;--border-width:0px; ">
+<h2 style="white-space:pre-wrap;"> <ion-icon name="clipboard"></ion-icon> {{itemdata.t}} </h2>
+</ion-item>  
+
+<ion-item style="--padding-top:0px; --padding-bottom:0px;--border-width:0px;white-space:pre-wrap;"  *ngIf="itemdata.d !=='' ">
+<h3  style="white-space:pre-wrap;">{{itemdata.d}} </h3>
+</ion-item>
+
+<ion-item style="--padding-top:0px; --padding-bottom:0px;--border-width:0px;white-space:pre-wrap;">
+    <h2 style="white-space:pre-wrap;"> <ion-icon name="clock"></ion-icon> {{itemdata.s}} - {{itemdata.e}}  </h2>
+</ion-item>
+
+<ion-item style="--padding-top:0px; --padding-bottom:0px;--border-width:0px;white-space:pre-wrap;" *ngIf="itemdata.b < 1" >
+   <h2 style="white-space:pre-wrap;"> <ion-icon name="pin"></ion-icon> Location: {{places[itemdata.p].n}}  </h2> 
+</ion-item>
+
+</ion-list>
 
 </ion-content>
+
+
+
+
+
+

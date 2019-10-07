@@ -18,6 +18,8 @@ import { FaqPage } from '../pages/faq/faq';
 import { MapPage } from '../pages/map/map';
 import { ListPage } from '../pages/list/list';
 
+import { SponsorPage } from '../pages/sponsor/sponsor';
+
 import { ContactPage } from '../pages/contact/contact';
 
 
@@ -36,7 +38,16 @@ export class MyApp {
 
   constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
     this.initializeApp();
-
+	
+	
+	
+platform.registerBackButtonAction(() => {
+        //sometimes the best thing you can do is not think, not wonder, not imagine, not obsess. 
+        //just breathe, and have faith that everything will work out for the best.
+      },1);
+	
+	
+	
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'Home', component: HomePage },	  
@@ -44,7 +55,9 @@ export class MyApp {
 	  { title: 'Tradeshow', component: TradeshowPage },
 	  { title: 'Keynote Speakers', component: KeynotePage },
 	  { title: 'F.A.Q.', component: FaqPage },
-	  { title: 'Contact Us', component: ContactPage }
+	  { title: 'Contact Us', component: ContactPage },
+	  { title: 'Sponsor Information', component: SponsorPage}
+	  
 	
 	  
     ];

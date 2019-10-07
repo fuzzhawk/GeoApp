@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
-
+import { Platform } from 'ionic-angular';
 
 
 
@@ -12,6 +12,8 @@ import { AgendaPage } from '../agenda/agenda';
 import { TradeshowPage } from '../tradeshow/tradeshow';
 import { KeynotePage } from '../keynote/keynote';
 import { FaqPage } from '../faq/faq';
+import { SponsorPage } from '../sponsor/sponsor';
+
 
 
 
@@ -24,7 +26,17 @@ import { FaqPage } from '../faq/faq';
 export class HomePage {
 
 
-  constructor(public navCtrl: NavController) { }
+  constructor(public navCtrl: NavController, platform: Platform) { 
+  
+          let backAction =  platform.registerBackButtonAction(() => {
+        console.log("second");
+        this.navCtrl.push(HomePage);
+        backAction();
+      },2)
+
+  
+  }
+  
   
 
    
@@ -42,6 +54,10 @@ export class HomePage {
 		
 		goToFaqPage() {  
 		this.navCtrl.push(FaqPage);  
+		}
+		
+		goToSponsorPage() {  
+		this.navCtrl.push(SponsorPage);  
 		}
 	
 	

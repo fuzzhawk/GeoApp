@@ -17,7 +17,7 @@ export class AgendaModalPage {
 
   constructor(private navParams: NavParams, private view: ViewController) {
   }
-  
+    icons: string[];
   itemdata = this.navParams.get('data');
   places = this.navParams.get('places');
   

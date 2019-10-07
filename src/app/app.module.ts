@@ -16,6 +16,8 @@ import { ListPage } from '../pages/list/list';
 
 import { Agenda2Page } from '../pages/agenda2/agenda2';
 
+import { SponsorPage } from '../pages/sponsor/sponsor';
+
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
@@ -32,7 +34,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 	MapPage,
 	ListPage,
 	Agenda2Page,
-	ContactPage
+	ContactPage,
+	SponsorPage
   ],
   imports: [
     BrowserModule,
@@ -49,7 +52,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 	MapPage,
 	ListPage,
 	Agenda2Page,
-	ContactPage
+	ContactPage,
+	SponsorPage
   ],
   providers: [
     StatusBar,
