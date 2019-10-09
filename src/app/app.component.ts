@@ -1,5 +1,5 @@
 import { Component, ViewChild } from '@angular/core';
-import { Nav, Platform } from 'ionic-angular';
+import { Nav, Platform, AlertController } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
@@ -42,12 +42,7 @@ export class MyApp {
 	
 
 	
-platform.registerBackButtonAction(() => {
-	presentAlert();
-        //sometimes the best thing you can do is not think, not wonder, not imagine, not obsess. 
-        //just breathe, and have faith that everything will work out for the best.
-      },1);
-	
+
 	
 	
     // used for an example of ngFor and navigation
@@ -85,6 +80,13 @@ platform.registerBackButtonAction(() => {
   });
   alert.present();
 }
+
+platform.registerBackButtonAction(() => {
+	presentAlert();
+        //sometimes the best thing you can do is not think, not wonder, not imagine, not obsess. 
+        //just breathe, and have faith that everything will work out for the best.
+      },1);
+	
 
   openPage(page) {
     // Reset the content nav to have just this page
