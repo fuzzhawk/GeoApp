@@ -40,14 +40,7 @@ export class MyApp {
     this.initializeApp();
 	
 	
-	  presentAlert() {
-  let alert = this.alertCtrl.create({
-    title: 'Yo Yo Yo Yo',
-    subTitle: 'back button pressed!',
-    buttons: ['okay']
-  });
-  alert.present();
-}
+
 	
 platform.registerBackButtonAction(() => {
 	presentAlert();
@@ -84,7 +77,14 @@ platform.registerBackButtonAction(() => {
     });
   }
   
-  
+ presentAlert() {
+  let alert = this.alertCtrl.create({
+    title: 'Yo Yo Yo Yo',
+    subTitle: 'back button pressed!',
+    buttons: ['okay']
+  });
+  alert.present();
+}
 
   openPage(page) {
     // Reset the content nav to have just this page
