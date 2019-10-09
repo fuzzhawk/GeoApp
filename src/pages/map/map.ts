@@ -35,6 +35,11 @@ export class MapPage {
     imageBounds = [[1, 1], [22, 17]];
 L.imageOverlay(imageUrl, imageBounds).addTo(this.map);
 	
+ this.map.on('click', function(e){
+    var marker = new L.marker(e.latlng).addTo(this);
+console.log(e.latlng.lat + ',' + e.latlng.lng );
+});
+
 
 
 
