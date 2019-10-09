@@ -36,12 +36,21 @@ export class MyApp {
 
   pages: Array<{title: string, component: any}>;
 
-  constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
+  constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen, private alertCtrl: AlertController ) {
     this.initializeApp();
 	
 	
+	  presentAlert() {
+  let alert = this.alertCtrl.create({
+    title: 'Yo Yo Yo Yo',
+    subTitle: 'back button pressed!',
+    buttons: ['okay']
+  });
+  alert.present();
+}
 	
 platform.registerBackButtonAction(() => {
+	presentAlert();
         //sometimes the best thing you can do is not think, not wonder, not imagine, not obsess. 
         //just breathe, and have faith that everything will work out for the best.
       },1);
@@ -64,6 +73,8 @@ platform.registerBackButtonAction(() => {
 
   }
 
+  
+  
   initializeApp() {
     this.platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.
