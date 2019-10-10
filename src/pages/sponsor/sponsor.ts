@@ -32,20 +32,11 @@ export class SponsorPage {
 
 
 
- ionViewDidEnter() {
-    if (this.resetBackButton) {
-      this.resetBackButton();
-    }
-    this.resetBackButton = this.platform.registerBackButtonAction(null);
-  }
-
-  ionViewWillLeave() {
-    if (this.resetBackButton) {
-      this.resetBackButton();
-      this.resetBackButton = null;
-    }
-  }
-  
+platform.registerBackButtonAction(() => {
+	this.presentAlert();
+        //sometimes the best thing you can do is not think, not wonder, not imagine, not obsess. 
+        //just breathe, and have faith that everything will work out for the best.
+      },1);
   
   
 }
