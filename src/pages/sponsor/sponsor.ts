@@ -10,7 +10,7 @@ export class SponsorPage {
   selectedItem: any;
   icons: string[];
   items: any;
-  private resetBackButton: any;
+  
   
   
   constructor(public navCtrl: NavController, public navParams: NavParams, private modal : ModalController,private alertCtrl: AlertController, private platform: Platform) {
@@ -32,11 +32,16 @@ export class SponsorPage {
 
 
 
-platform.registerBackButtonAction(() => {
+this.platform.ready().then(
+  () => {
+this.platform.registerBackButtonAction(() => {
 	this.presentAlert();
         //sometimes the best thing you can do is not think, not wonder, not imagine, not obsess. 
         //just breathe, and have faith that everything will work out for the best.
       },1);
+	
+  }
+);
   
   
 }
