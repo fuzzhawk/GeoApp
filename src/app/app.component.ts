@@ -39,9 +39,14 @@ export class MyApp {
   constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen, public alertCtrl: AlertController ) {
     this.initializeApp();
 	
-this.platform.ready().then(() => {
-this.platform.registerBackButtonAction(() => this.presentAlert());
-  });
+	this.platform.ready().then(() => {
+		
+		  document.addEventListener('backbutton', () => {
+                  this.presentAlert()
+    }, false);
+		
+		
+	  });
 	
 	
 	
