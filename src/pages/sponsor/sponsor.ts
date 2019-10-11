@@ -16,25 +16,13 @@ export class SponsorPage {
   constructor(public navCtrl: NavController, public navParams: NavParams, private modal : ModalController,private alertCtrl: AlertController, private platform: Platform) {
     // If we navigated to this page, we will have an item available as a nav param
 	
-	this.platform.ready().then(
-  () => {
-this.platform.registerBackButtonAction(() => {
-	this.presentAlert();
-        //sometimes the best thing you can do is not think, not wonder, not imagine, not obsess. 
-        //just breathe, and have faith that everything will work out for the best.
-      },1);
-	
-  }
-);
+	this.platform.ready().then(() => {
+this.platform.registerBackButtonAction(() =>this.presentAlert());
+	  });
 	
 	
   }
   
- this.platform.registerBackButtonAction(() => {
-	this.presentAlert();
-        //sometimes the best thing you can do is not think, not wonder, not imagine, not obsess. 
-        //just breathe, and have faith that everything will work out for the best.
-      },1); 
   
   
   presentAlert() {

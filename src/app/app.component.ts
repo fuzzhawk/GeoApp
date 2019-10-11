@@ -39,16 +39,9 @@ export class MyApp {
   constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen, public alertCtrl: AlertController ) {
     this.initializeApp();
 	
-this.platform.ready().then(
-  () => {
-this.platform.registerBackButtonAction(() => {
-	this.presentAlert();
-        //sometimes the best thing you can do is not think, not wonder, not imagine, not obsess. 
-        //just breathe, and have faith that everything will work out for the best.
-      },1);
-	
-  }
-);
+this.platform.ready().then(() => {
+this.platform.registerBackButtonAction(() => this.presentAlert());
+  });
 	
 	
 	
@@ -88,11 +81,7 @@ this.platform.registerBackButtonAction(() => {
   alert.present();
 }
 
-platform.registerBackButtonAction(() => {
-	this.presentAlert();
-        //sometimes the best thing you can do is not think, not wonder, not imagine, not obsess. 
-        //just breathe, and have faith that everything will work out for the best.
-      },1);
+
 
 	
 
