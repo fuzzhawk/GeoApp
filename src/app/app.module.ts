@@ -18,6 +18,12 @@ import { Agenda2Page } from '../pages/agenda2/agenda2';
 
 import { SponsorPage } from '../pages/sponsor/sponsor';
 
+import { PosterPage } from '../pages/poster/poster';
+
+import { CorePage } from '../pages/core/core';
+
+
+
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
@@ -34,6 +40,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 	MapPage,
 	ListPage,
 	Agenda2Page,
+	PosterPage,
+	CorePage,
 	ContactPage,
 	SponsorPage
   ],
@@ -53,6 +61,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 	ListPage,
 	Agenda2Page,
 	ContactPage,
+	PosterPage,
+	CorePage,
 	SponsorPage
   ],
   providers: [

@@ -36,6 +36,13 @@
    <h2 style="white-space:pre-wrap;"> <ion-icon name="pin"></ion-icon> Location: {{places[itemdata.p].n}}  </h2> 
 </ion-item>
 
+	<button ion-button large full  round (click)="goToCorePage()" *ngIf="itemdata.n == 'core'">
+   Core Shack Info
+    </button>
+
+	<button ion-button large full  round (click)="goToPosterPage()" *ngIf="itemdata.n == 'core'">
+   Poster Display Info
+    </button>
 </ion-list>
 
 </ion-content>

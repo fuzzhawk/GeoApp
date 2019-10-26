@@ -1,5 +1,10 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavParams, ViewController } from 'ionic-angular';
+import { IonicPage, NavParams, NavController,ViewController } from 'ionic-angular';
+
+
+import { CorePage } from '../core/core';
+import { PosterPage } from '../poster/poster';
+
 
 
 /**
@@ -15,7 +20,7 @@ import { IonicPage, NavParams, ViewController } from 'ionic-angular';
 })
 export class AgendaModalPage {
 
-  constructor(private navParams: NavParams, private view: ViewController) {
+  constructor(public navCtrl: NavController,private navParams: NavParams, private view: ViewController) {
   }
     icons: string[];
   itemdata = this.navParams.get('data');
@@ -38,4 +43,19 @@ export class AgendaModalPage {
     };
     this.view.dismiss(data);
   }
+  
+  
+	 goToCorePage() {
+    //push another page onto the history stack
+    //causing the nav controller to animate the new page in
+    this.navCtrl.push(CorePage);
+     }
+  	 goToPosterPage() {
+    //push another page onto the history stack
+    //causing the nav controller to animate the new page in
+    this.navCtrl.push(PosterPage);
+     }
+  
 }
+
+

@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>POSTER SESSION - NOV 18 & 19</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding style="background-position: center; background-repeat: no-repeat; background-size: cover; background-image: url('../../assets/imgs/background.jpg'); !important;">
+
+
+
+
+
+
+
+<ion-card  style="background-color:#b6c2d6;"> 
+  <ion-card-header text-wrap >
+    <h2>Location: YUKON CONVENTION CENTRE</h2>
+	<br>
+	Author in attendance 3:30 to 5:00 PM Monday, November 18th <br>and 3:30 to 5:00 PM Tuesday, November 19th
+	<br>
+	<br>
+	(posters will be up throughout the Technical Session)
+	
+	
+  </ion-card-header>
+</ion-card>
+
+
+<ion-list  style="background-color: transparent;"> 
+   <button ion-item text-wrap icon-end *ngFor="let item of items" (click)="itemTapped(item)" >
+     
+    <ion-icon  item-end md="arrow-forward" style="float: right" ></ion-icon>
+    <h2>{{item.n}}</h2>
+	<p>{{item.d}}</p><br>
+
+  </button>
+</ion-list>
+
+
+</ion-content>
+
+

@@ -22,6 +22,9 @@ import { SponsorPage } from '../pages/sponsor/sponsor';
 
 import { ContactPage } from '../pages/contact/contact';
 
+import { PosterPage } from '../pages/poster/poster';
+
+import { CorePage } from '../pages/core/core';
 
 
 
