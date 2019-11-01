@@ -29,13 +29,19 @@
     </div>
   </div>
   
-<div padding style = "z-index: 99;">
-    <div *ngIf="itemdata.length < 2">  {{itemdata[0].name}} </div>
+  
+  <ion-card  style="background-color:#b6c2d6; z-index: 99;"> 
+  <ion-card-header text-wrap > 
+  <div *ngIf="itemdata.length < 2">  {{itemdata[0].name}} </div>
 	<div *ngIf="itemdata.length > 1">
      {{itemdata[0].name}} (sat - sun)
 	<br>   {{itemdata[1].name}} (mon - tues)
 	</div>
-</div>
+   
+  </ion-card-header>
+</ion-card>
+
+
 
 
 
